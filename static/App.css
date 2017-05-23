@@ -1,0 +1,160 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat,Arial,Helvetica,sans-serif;
+  letter-spacing: .5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.fixed {
+  position:fixed:
+}
+
+#header {
+  position: fixed;
+  padding: 15px 0 0 0;
+  border-bottom: 1px solid #dedede;
+  width: 100%;
+  background-color: white;
+  height: 51px;
+  z-index: 10;
+}
+
+#header .logo {
+background: url('http://www.onerent.co/images/twenty-sixteen/onerent-logo-name.png') no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 167px;
+   margin-left: 15px;
+  display: inline-block;
+}
+
+#header ul{
+  display: inline-block;
+  float:right;
+  margin: -5px 15px 0 15px;
+  padding: 0;
+}
+
+#header ul li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px 0;
+  float:left;
+}
+
+#header ul li a:hover {
+  border-bottom: 3px solid #6163D3;
+}
+
+#header ul li a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 0px solid #fff;
+  background-color: white;
+}
+
+#wrapper-main {
+  position: relative;
+}
+
+#property-list-box {
+  position: absolute;
+  width: 65%;
+  margin-top: 90px;
+}
+
+
+#property-list-box crumbs {
+  color: #6163D3;
+}
+
+#property-list-box a.crumb {
+  margin: 15px 5px;
+  padding: 5px 5px;
+  font-size: 10pt;
+}
+
+#property-list-box a.crumb.selected,
+#property-list-box a.crumb:hover {
+  color: #82D372;
+}
+
+#property-list-box .title {
+  text-align: center;
+  color: #404040;
+  font-weight: 700;
+  font-size: 2.25rem;
+  padding: 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+#property-list-box .properties-list {
+  padding: 15px 0;
+  position: relative;
+  background-color: #F0F0F0;
+}
+
+#property-list-box .properties-list .property-row{
+  float: left;
+  margin: 10px;
+}
+
+#property-list-box .properties-list .property-row-image {
+    background-color: #cecece;
+    background-size: cover;
+    background-position: center;
+}
+
+.pager-box {
+    padding: 10px;
+    border-top: 1px solid #dedede;
+}
+
+.pager-box .total-count {
+  padding-right: 15px;
+}
+
+.pager-box .page-link {
+  padding: 5px;
+  margin: 8px;
+}
+
+.pager-box .page-link.selected {
+  border: 1px solid #6163D3;
+  font-weight: 600;
+  color: #6163D3;
+  border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.listing-menu {
+  width: 90px;
+  height: 90px;
+  border-right: 1px solid #dedede;
+}
+
+.listing-menu:hover {
+  background-color: #dedede;
+}
+
+#gmap {
+  position: fixed !important;
+  height: 100%;
+  width: 35%;
+  right: 0;
+  top: 67px;
+}
